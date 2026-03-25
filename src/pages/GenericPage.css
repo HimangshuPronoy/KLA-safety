@@ -130,10 +130,34 @@
 }
 
 @media (max-width: 768px) {
+  .generic-page {
+    padding: 32px 16px;
+  }
   .generic-page__container {
-    padding: 32px 24px;
+    padding: 32px 20px;
   }
   .generic-page__title {
-    font-size: 32px;
+    font-size: 28px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    word-wrap: break-word;
+  }
+  .generic-page__content {
+    font-size: 15px;
+  }
+  .generic-page__content h3 {
+    font-size: 20px;
+    margin-top: 24px;
+  }
+  .contact-details li {
+    font-size: 16px;
+  }
+  .generic-page__footer {
+    margin-top: 40px;
+  }
+  .generic-btn {
+    width: 100%;
+    display: block;
+    margin-top: 8px;
   }
 }
