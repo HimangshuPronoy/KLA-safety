@@ -1,0 +1,55 @@
+.promo-bar {
+  background-color: #158482; /* Teal color from screenshot */
+  color: #fff;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+.promo-bar__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.promo-bar__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.promo-bar__icon {
+  color: #fff;
+}
+
+.promo-bar__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-bar__label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.promo-bar__value {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.promo-bar__value[href]:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .promo-bar__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

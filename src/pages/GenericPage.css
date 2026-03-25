@@ -1,0 +1,139 @@
+.generic-page {
+  padding: 80px 24px;
+  background-color: #f9fafb;
+  min-height: 70vh;
+}
+
+.generic-page__container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.05);
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+.generic-page__title {
+  font-family: var(--font-serif);
+  font-size: 48px;
+  font-weight: 300;
+  color: #111;
+  margin-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 24px;
+}
+
+.generic-page__content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.generic-page__content h3 {
+  font-size: 22px;
+  color: #111;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.generic-page__content p {
+  margin-bottom: 20px;
+}
+
+.faq-list h4 {
+  font-size: 18px;
+  color: #158482;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.contact-details li {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.contact-details a {
+  color: #158482;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.generic-page__fallback {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  padding: 40px 0;
+}
+
+.generic-page__footer {
+  margin-top: 56px;
+  text-align: center;
+}
+
+.generic-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background-color: #111;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  transition: all 0.2s;
+  border: 1px solid #111;
+}
+
+.generic-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.outline-btn {
+  background-color: transparent;
+  color: #111;
+}
+
+.outline-btn:hover {
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  border-color: #25D366;
+  color: #fff;
+}
+
+.whatsapp-btn:hover {
+  background-color: #20C055;
+  border-color: #20C055;
+  color: #fff;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .generic-page__container {
+    padding: 32px 24px;
+  }
+  .generic-page__title {
+    font-size: 32px;
+  }
+}
