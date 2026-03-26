@@ -117,40 +117,37 @@ export default function Navbar() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="navbar__mobile-menu">
-          {navItems.map((item) => (
-            <div key={item.label} className="navbar__mobile-item">
-              <button
-                className="navbar__mobile-btn"
-                onClick={() =>
-                  setMobileExpanded(mobileExpanded === item.label ? null : item.label)
-                }
-              >
-                <span>{item.label}</span>
-                <ChevronDown
-                  size={14}
-                  className={mobileExpanded === item.label ? 'rotated' : ''}
-                />
-              </button>
-              {mobileExpanded === item.label && (
-                <div className="navbar__mobile-sub">
-                  {item.sub.map((s) => (
-                    <Link 
-                      key={s} 
-                      to={`/category/${item.id}`} 
-                      className="navbar__mobile-sub-link"
-                      onClick={closeMenus}
-                    >
-                      {s}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-          <a href="tel:7816054341" className="navbar__mobile-btn" onClick={closeMenus}>Call: +91 7816054341</a>
+          {/* Single "Our Services" group */}
+          <div className="navbar__mobile-item">
+            <button
+              className="navbar__mobile-btn"
+              onClick={() => setMobileExpanded(mobileExpanded === 'services' ? null : 'services')}
+            >
+              <span>Our Services</span>
+              <ChevronDown size={14} className={mobileExpanded === 'services' ? 'rotated' : ''} />
+            </button>
+            {mobileExpanded === 'services' && (
+              <div className="navbar__mobile-sub">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.id}
+                    to={`/category/${item.id}`}
+                    className="navbar__mobile-sub-link"
+                    onClick={closeMenus}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+          <Link to="/page/about-us" className="navbar__mobile-btn" onClick={closeMenus}>About Us</Link>
+          <Link to="/page/faq" className="navbar__mobile-btn" onClick={closeMenus}>FAQ</Link>
+          <a href="tel:7816054341" className="navbar__mobile-btn" onClick={closeMenus}>📞 Call: +91 7816054341</a>
           <Link to="/contact" className="navbar__mobile-btn" onClick={closeMenus}>Free Inspection</Link>
         </div>
       )}
+
     </header>
   );
 }
