@@ -1,77 +1,99 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Hero.css';
 
+const slides = [
+  {
+    image: '/1.jpg',
+    label: 'SRC Safety Nets',
+    title: 'High-Quality\nSafety Solutions',
+    sub: 'Balcony, Pigeon & Bird safety nets in Hyderabad.\n12+ years of expert installation.',
+    link: '/category/balcony-safety-nets',
+  },
+  {
+    image: '/2.jpg',
+    label: 'Pigeon Nets',
+    title: 'Keep Birds\nAway for Good',
+    sub: 'Durable pigeon and anti-bird nets for homes & offices.',
+    link: '/category/pigeon-safety-nets',
+  },
+  {
+    image: '/3.jpg',
+    label: 'Children Safety',
+    title: 'Protect Your\nLoved Ones',
+    sub: 'Strong safety nets for balconies, windows & staircases.',
+    link: '/category/children-safety-nets',
+  },
+  {
+    image: '/4.jpg',
+    label: 'Monkey Safety Nets',
+    title: 'Block Unwanted\nIntrusions',
+    sub: 'Heavy-duty nets to keep monkeys out of your property.',
+    link: '/category/monkey-safety-nets',
+  },
+];
+
 export default function Hero() {
+  const [current, setCurrent] = useState(0);
+  const [animating, setAnimating] = useState(false);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      goTo((current + 1) % slides.length);
+    }, 4500);
+    return () => clearInterval(timer);
+  }, [current]);
+
+  function goTo(idx) {
+    if (animating || idx === current) return;
+    setAnimating(true);
+    setTimeout(() => {
+      setCurrent(idx);
+      setAnimating(false);
+    }, 400);
+  }
+
+  const slide = slides[current];
+
   return (
-    <section className="hero">
-      <div className="hero__main">
-        {/* Left: text */}
-        <div className="hero__content">
-          <p className="hero__eyebrow">SRC SAFETY NETS</p>
-          <h1 className="hero__title">
-            High-Quality<br />Safety Solutions
+    <section className="hero-slider">
+      <div className={`hero-slider__slide ${animating ? 'hero-slider__slide--out' : 'hero-slider__slide--in'}`}>
+        <img src={slide.image} alt={slide.title} className="hero-slider__img" />
+        <div className="hero-slider__overlay" />
+        <div className="hero-slider__content">
+          <p className="hero-slider__label">{slide.label}</p>
+          <h1 className="hero-slider__title">
+            {slide.title.split('\n').map((line, i) => (
+              <span key={i}>{line}<br /></span>
+            ))}
           </h1>
-          <p className="hero__subtitle">
-            For balconies, windows, and open areas.<br />
-            With 12+ years of expertise, we ensure protection from birds and falls.
-          </p>
-          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-            <a href="tel:7816054341" className="hero__cta">Call Us Now: +91 7816054341</a>
-            <a 
-              href="https://api.whatsapp.com/send?phone=+917816054341&text=Hi,%20SRC%20SAFETY%20NETS.%20-%20I%27m%20Interested%20in%20knowing%20price%20for%20the%20services%20you%20offer." 
-              target="_blank" 
-              rel="noreferrer" 
-              className="hero__cta" 
-              style={{ background: '#25D366', border: 'none' }}
-            >
-              WhatsApp Us
+          <p className="hero-slider__sub">{slide.sub}</p>
+          <div className="hero-slider__actions">
+            <a href="tel:7816054341" className="hero-slider__btn hero-slider__btn--primary">
+              Call Now: +91 7816054341
             </a>
-          </div>
-        </div>
-
-        {/* Right: image */}
-        <div className="hero__image-wrap">
-          <img
-            src="/1.jpg"
-            alt="Premium Balcony Protection"
-            className="hero__image"
-          />
-          <div className="hero__badge" style={{ bottom: '20px', left: '20px' }}>
-            <span className="hero__badge-title">100% Quality</span>
-            <span className="hero__badge-sub">Premium Nets</span>
+            <Link to={slide.link} className="hero-slider__btn hero-slider__btn--outline">
+              Learn More →
+            </Link>
           </div>
         </div>
       </div>
 
-      {/* Sub-hero tiles */}
-      <div className="hero__tiles">
-        <div className="hero__tile hero__tile--dark">
-          <img
-            src="/2.jpg"
-            alt="Pigeon Nets"
-            className="hero__tile-img"
-            style={{ objectFit: 'cover' }}
+      {/* Dots */}
+      <div className="hero-slider__dots">
+        {slides.map((_, idx) => (
+          <button
+            key={idx}
+            className={`hero-slider__dot ${idx === current ? 'hero-slider__dot--active' : ''}`}
+            onClick={() => goTo(idx)}
+            aria-label={`Slide ${idx + 1}`}
           />
-          <div className="hero__tile-content">
-            <span className="hero__tile-label">Pigeon Nets</span>
-            <h3 className="hero__tile-title">Keep birds away</h3>
-            <Link to="/category/pigeon-safety-nets" className="hero__tile-link">Learn more →</Link>
-          </div>
-        </div>
-        <div className="hero__tile">
-          <img
-            src="/3.jpg"
-            alt="Children Safety"
-            className="hero__tile-img"
-            style={{ objectFit: 'cover' }}
-          />
-          <div className="hero__tile-content hero__tile-content--light">
-            <span className="hero__tile-label">Children Safety</span>
-            <h3 className="hero__tile-title">Protect your loved ones</h3>
-            <Link to="/category/children-safety-nets" className="hero__tile-link hero__tile-link--dark">Learn more →</Link>
-          </div>
-        </div>
+        ))}
       </div>
+
+      {/* Arrows */}
+      <button className="hero-slider__arrow hero-slider__arrow--prev" onClick={() => goTo((current - 1 + slides.length) % slides.length)} aria-label="Previous">&#8592;</button>
+      <button className="hero-slider__arrow hero-slider__arrow--next" onClick={() => goTo((current + 1) % slides.length)} aria-label="Next">&#8594;</button>
     </section>
   );
 }
