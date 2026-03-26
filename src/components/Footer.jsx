@@ -17,9 +17,9 @@ const footerLinks = {
     { label: 'Anti Bird Nets', href: '/category/anti-bird-nets' },
     { label: 'Children Safety Nets', href: '/category/children-safety-nets' },
     { label: 'Duct Area Nets', href: '/category/duct-area-safety-nets' },
-    { label: 'Monkey Safety Nets', href: '/category/monkey-safety-nets' },
+    { label: 'Invisible Grill', href: '/category/monkey-safety-nets' },
     { label: 'Pigeon Spikes', href: '/category/pigeon-spikes' },
-    { label: 'House Covering', href: '/category/building-safety-nets' },
+    { label: 'Gallery', href: '/gallery' },
     { label: 'Sports Nets', href: '/category/sports-nets' },
   ],
   Information: [
