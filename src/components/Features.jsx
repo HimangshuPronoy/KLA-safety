@@ -28,7 +28,7 @@ export default function Features() {
     <section className="features">
       <div className="features__inner">
         <div className="features__header">
-          <p className="features__eyebrow">Why KLA Safety Nets</p>
+          <p className="features__eyebrow">Why SRC Safety Nets</p>
           <h2 className="features__title">
             Your Safety.<br />Our Priority.<br />Trusted by Thousands.
           </h2>

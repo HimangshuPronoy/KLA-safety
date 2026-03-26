@@ -7,7 +7,7 @@ const pageData = {
     title: 'Privacy Policy',
     content: (
       <>
-        <p>At KLA Safety Nets, we are committed to protecting your privacy. This policy outlines how we collect, use, and safeguard your personal information.</p>
+        <p>At SRC Safety Nets, we are committed to protecting your privacy. This policy outlines how we collect, use, and safeguard your personal information.</p>
         <h3>Information Collection</h3>
         <p>We collect information you provide directly to us when you request a quote, schedule an inspection, or contact our customer support. This includes your name, phone number, address, and email.</p>
         <h3>Use of Information</h3>
@@ -22,7 +22,7 @@ const pageData = {
     title: 'Terms & Conditions',
     content: (
       <>
-        <p>Welcome to KLA Safety Nets. By accessing our website and utilizing our services, you agree to comply with and be bound by the following terms and conditions.</p>
+        <p>Welcome to SRC Safety Nets. By accessing our website and utilizing our services, you agree to comply with and be bound by the following terms and conditions.</p>
         <h3>Service Agreement</h3>
         <p>All safety net installations are subject to a prior site inspection. The final quotation provided after the inspection is binding. Any additional requirements identified during installation may incur extra charges.</p>
         <h3>Warranty</h3>
@@ -33,10 +33,10 @@ const pageData = {
     )
   },
   'about-us': {
-    title: 'About KLA Safety Nets',
+    title: 'About SRC Safety Nets',
     content: (
       <>
-        <p>With over 12 years of industry experience, KLA Safety Nets is Hyderabad's leading provider of premium residential and commercial safety netting solutions.</p>
+        <p>With over 12 years of industry experience, SRC Safety Nets is Hyderabad's leading provider of premium residential and commercial safety netting solutions.</p>
         <p>Our mission is to provide peace of mind to families and businesses by ensuring balconies, windows, staircases, and open ducts are 100% secure from accidental falls and protected against bird intrusions.</p>
         <p>We pride ourselves on using top-tier, UV-stabilized, high-density polyethylene (HDPE) and nylon nets that offer maximum durability without compromising the aesthetic appeal of your property.</p>
         <p>Our team of highly trained technicians guarantees a flawless installation process, customized to the exact dimensions of your space.</p>
@@ -64,12 +64,12 @@ const pageData = {
       <div className="contact-box">
         <p>We are ready to secure your space. Get in touch with our experts today!</p>
         <ul className="contact-details">
-          <li><strong>Phone:</strong> <a href="tel:9100024252">+91 9100024252</a></li>
-          <li><strong>Email:</strong> <a href="mailto:klasafetynets@gmail.com">klasafetynets@gmail.com</a></li>
-          <li><strong>Location:</strong> Hyderabad, Telangana</li>
+          <li><strong>Phone:</strong> <a href="tel:7816054341">+91 7816054341</a></li>
+          <li><strong>Email:</strong> <a href="mailto:srcsafetynets@gmail.com">srcsafetynets@gmail.com</a></li>
+          <li><strong>Location:</strong> Road No. 14, Greenpark Colony, Saroornagar, Hyderabad-36, T.S.</li>
         </ul>
         <div style={{ marginTop: '2rem' }}>
-          <a href="https://api.whatsapp.com/send?phone=+919100024252" target="_blank" rel="noreferrer" className="generic-btn whatsapp-btn">Chat on WhatsApp</a>
+          <a href="https://api.whatsapp.com/send?phone=+917816054341" target="_blank" rel="noreferrer" className="generic-btn whatsapp-btn">Chat on WhatsApp</a>
         </div>
       </div>
     )
@@ -79,18 +79,18 @@ const pageData = {
     content: (
       <>
         <p>We offer a complimentary site visit anywhere in Hyderabad. Our experts will thoroughly measure your balconies, windows, or duct areas and provide a precise, no-obligation quotation on the spot.</p>
-        <p>Call us now at <strong>+91 9100024252</strong> or chat with us on WhatsApp to schedule your free inspection today.</p>
+        <p>Call us now at <strong>+91 7816054341</strong> or chat with us on WhatsApp to schedule your free inspection today.</p>
         <div style={{ marginTop: '2rem' }}>
-          <a href="tel:9100024252" className="generic-btn">Call to Book</a>
+          <a href="tel:7816054341" className="generic-btn">Call to Book</a>
         </div>
       </>
     )
   },
   'why-choose-us': {
-    title: 'Why Choose KLA Safety Nets?',
+    title: 'Why Choose SRC Safety Nets?',
     content: (
       <>
-        <p>Choosing the right safety net provider is critical for the well-being of your family. KLA Safety Nets stands out in Hyderabad for our unwavering commitment to quality and customer satisfaction.</p>
+        <p>Choosing the right safety net provider is critical for the well-being of your family. SRC Safety Nets stands out in Hyderabad for our unwavering commitment to quality and customer satisfaction.</p>
         <ul style={{ paddingLeft: '20px', marginBottom: '20px', lineHeight: '1.8' }}>
           <li style={{ marginBottom: '10px' }}><strong>Premium Quality:</strong> We use high-tensile, UV-stabilized materials exclusively.</li>
           <li style={{ marginBottom: '10px' }}><strong>Expert Installation:</strong> Our technicians are trained to secure nets without damaging your property.</li>
@@ -104,7 +104,7 @@ const pageData = {
     title: '12+ Years Experience',
     content: (
       <>
-        <p>Experience matters when it comes to safety. For over 12 years, KLA Safety Nets has been at the forefront of the safety netting industry in Hyderabad.</p>
+        <p>Experience matters when it comes to safety. For over 12 years, SRC Safety Nets has been at the forefront of the safety netting industry in Hyderabad.</p>
         <p>We have successfully completed thousands of installations across high-rise residential complexes, commercial buildings, and industrial sites. Our long-standing tenure means we have encountered and solved every type of structural challenge, allowing us to provide robust, fail-safe solutions for even the most complex duct areas and balconies.</p>
       </>
     )
@@ -125,7 +125,7 @@ const pageData = {
         <p>Top-tier safety doesn't have to break the bank. We strive to offer the most competitive pricing in the market without cutting corners on material quality or installation expertise.</p>
         <p>We provide transparent, upfront quotations during our free site inspections. The cost is generally calculated based on the square footage of the net required and the complexity of the installation. Contact us today for a free estimate!</p>
         <div style={{ marginTop: '2rem' }}>
-          <a href="tel:9100024252" className="generic-btn">Get a Quote</a>
+          <a href="tel:7816054341" className="generic-btn">Get a Quote</a>
         </div>
       </>
     )
@@ -160,8 +160,8 @@ export default function GenericPage() {
   return (
     <div className="generic-page">
       <Helmet>
-        <title>{title} | KLA Safety Nets Hyderabad</title>
-        <meta name="description" content={`Find out more about ${title} with KLA Safety Nets, your trusted safety solutions provider.`} />
+        <title>{title} | SRC Safety Nets Hyderabad</title>
+        <meta name="description" content={`Find out more about ${title} with SRC Safety Nets, your trusted safety solutions provider.`} />
       </Helmet>
       <div className="generic-page__container">
         <h1 className="generic-page__title">{title || 'Page Not Found'}</h1>
@@ -169,7 +169,7 @@ export default function GenericPage() {
           {data ? data.content : (
             <div className="generic-page__fallback">
               <p>Detailed information for <strong>{title}</strong> is currently being compiled by our team.</p>
-              <p>Please check back later or call us directly at <strong>+91 9100024252</strong>.</p>
+              <p>Please check back later or call us directly at <strong>+91 7816054341</strong>.</p>
             </div>
           )}
         </div>

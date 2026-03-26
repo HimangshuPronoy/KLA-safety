@@ -15,7 +15,7 @@ export default function WhyChooseUs() {
     <section className="why-choose-us">
       <div className="why-choose-us__container">
         <div className="why-choose-us__header">
-          <h2 className="why-choose-us__title">Why Choose KLA Safety Nets?</h2>
+          <h2 className="why-choose-us__title">Why Choose SRC Safety Nets?</h2>
           <p className="why-choose-us__subtitle">We are committed to delivering the highest standard of safety nets without compromising on aesthetics or quality.</p>
         </div>
         

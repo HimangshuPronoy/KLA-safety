@@ -40,7 +40,7 @@ export default function Newsletter() {
             </form>
           )}
           <p className="newsletter__disclaimer">
-            Or call us directly at <strong>+91 9100024252</strong> for immediate assistance.
+            Or call us directly at <strong>+91 7816054341</strong> for immediate assistance.
           </p>
         </div>
       </div>

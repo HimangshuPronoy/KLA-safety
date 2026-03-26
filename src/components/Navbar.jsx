@@ -60,7 +60,7 @@ export default function Navbar() {
         </button>
 
         <Link to="/" className="navbar__logo" onClick={closeMenus}>
-          <span className="navbar__logo-main">KLA</span>
+          <span className="navbar__logo-main">SRC</span>
           <span className="navbar__logo-main" style={{fontWeight: 400, marginLeft: 6}}>SAFETY NETS</span>
         </Link>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
             )}
           </div>
         ))}
-        <a href="tel:9100024252" className="navbar__nav-btn navbar__nav-special">Call: +91 9100024252</a>
+        <a href="tel:7816054341" className="navbar__nav-btn navbar__nav-special">Call: +91 7816054341</a>
         <Link to="/contact" className="navbar__nav-btn navbar__nav-special">Free Inspection</Link>
       </nav>
 
@@ -135,7 +135,7 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <a href="tel:9100024252" className="navbar__mobile-btn" onClick={closeMenus}>Call: +91 9100024252</a>
+          <a href="tel:7816054341" className="navbar__mobile-btn" onClick={closeMenus}>Call: +91 7816054341</a>
           <Link to="/contact" className="navbar__mobile-btn" onClick={closeMenus}>Free Inspection</Link>
           <div className="navbar__mobile-divider" />
           <Link to="/" className="navbar__mobile-btn" onClick={closeMenus}>About Us</Link>

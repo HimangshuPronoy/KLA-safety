@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="hero__main">
         {/* Left: text */}
         <div className="hero__content">
-          <p className="hero__eyebrow">KLA Safety Nets</p>
+          <p className="hero__eyebrow">SRC SAFETY NETS</p>
           <h1 className="hero__title">
             High-Quality<br />Safety Solutions
           </h1>
@@ -15,9 +15,9 @@ export default function Hero() {
             With 12+ years of expertise, we ensure protection from birds and falls.
           </p>
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-            <a href="tel:9100024252" className="hero__cta">Call Us Now: +91 9100024252</a>
+            <a href="tel:7816054341" className="hero__cta">Call Us Now: +91 7816054341</a>
             <a 
-              href="https://api.whatsapp.com/send?phone=+919100024252&text=Hi,%20KLA%20Safety%20Nets.%20-%20I%27m%20Interested%20in%20knowing%20price%20for%20the%20services%20you%20offer." 
+              href="https://api.whatsapp.com/send?phone=+917816054341&text=Hi,%20SRC%20SAFETY%20NETS.%20-%20I%27m%20Interested%20in%20knowing%20price%20for%20the%20services%20you%20offer." 
               target="_blank" 
               rel="noreferrer" 
               className="hero__cta" 

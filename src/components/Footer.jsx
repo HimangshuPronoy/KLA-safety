@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="footer__main">
         <div className="footer__brand">
           <a href="/" className="footer__logo">
-            KLA SAFETY NETS
+            SRC SAFETY NETS
           </a>
           <p className="footer__brand-text">
             High-quality safety solutions for balconies, windows, and open areas. Ensuring protection from birds, falls, and debris.
@@ -76,13 +76,13 @@ export default function Footer() {
       <div className="footer__bottom">
         <div className="footer__bottom-inner">
           <p className="footer__copy">
-            © {new Date().getFullYear()} KLA Safety Nets · All rights reserved
+            © {new Date().getFullYear()} SRC Safety Nets · All rights reserved
           </p>
           <div className="footer__payment">
             <span className="footer__payment-label">Contact:</span>
             <div className="footer__payment-methods">
-              <div className="payment-pill">+91 9100024252</div>
-              <div className="payment-pill">klasafetynets.in</div>
+              <div className="payment-pill">+91 7816054341</div>
+              <div className="payment-pill">srcsafetynets.in</div>
             </div>
           </div>
         </div>

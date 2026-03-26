@@ -20,7 +20,7 @@ export default function FabricBanner() {
           Whether it's for your balcony, sports court, or duct area, we have the right nets for you. Call us for a free site inspection and consultation.
         </p>
         <div className="fabric-banner__actions">
-          <a href="tel:9100024252" className="fabric-banner__btn fabric-banner__btn--primary">Call +91 9100024252</a>
+          <a href="tel:7816054341" className="fabric-banner__btn fabric-banner__btn--primary">Call +91 7816054341</a>
           <a href="/" className="fabric-banner__btn fabric-banner__btn--secondary">Explore Services</a>
         </div>
       </div>

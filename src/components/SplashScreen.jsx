@@ -21,7 +21,7 @@ export default function SplashScreen() {
   return (
     <div className={`splash-screen ${complete ? 'fade-out' : ''}`}>
       <div className="splash-content">
-        <h1 className="splash-title">KLA</h1>
+        <h1 className="splash-title">SRC</h1>
         <p className="splash-subtitle">SAFETY NETS</p>
         <div className="splash-loader"></div>
       </div>

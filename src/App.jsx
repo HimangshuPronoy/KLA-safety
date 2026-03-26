@@ -21,7 +21,7 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>KLA Safety Nets | Hyderabad's Top Safety Net Solutions</title>
+        <title>SRC Safety Nets | Hyderabad's Top Safety Net Solutions</title>
         <meta name="description" content="Get premium quality safety nets in Hyderabad. We specialize in balcony nets, pigeon nets, and sports netting. Free inspection & same-day secure installation." />
       </Helmet>
       <Hero />

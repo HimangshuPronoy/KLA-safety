@@ -43,7 +43,7 @@ export default function HowItWorks() {
           ))}
         </div>
         <div className="how__cta-wrap">
-          <a href="tel:9100024252" className="how__cta">Book Free Inspection</a>
+          <a href="tel:7816054341" className="how__cta">Book Free Inspection</a>
         </div>
       </div>
     </section>

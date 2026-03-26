@@ -95,7 +95,7 @@ export default function CategoryPage() {
   return (
     <div className="category-page">
       <Helmet>
-        <title>{data.title} | KLA Safety Nets</title>
+        <title>{data.title} | SRC Safety Nets</title>
         <meta name="description" content={data.description} />
       </Helmet>
       <div className="category-page__hero">
@@ -113,8 +113,8 @@ export default function CategoryPage() {
              <h3>Ready to secure your space?</h3>
              <p>Call our experts today for a free site inspection and consultation.</p>
              <div className="category-page__buttons">
-               <a href="tel:9100024252" className="category-page__btn">Call Now: +91 9100024252</a>
-               <a href="https://api.whatsapp.com/send?phone=+919100024252&text=Hi,%20KLA%20Safety%20Nets.%20-%20I%27m%20Interested%20in%20knowing%20price%20for%20the%20services%20you%20offer." target="_blank" rel="noreferrer" className="category-page__btn category-page__btn--whatsapp">
+               <a href="tel:7816054341" className="category-page__btn">Call Now: +91 7816054341</a>
+               <a href="https://api.whatsapp.com/send?phone=+917816054341&text=Hi,%20SRC%20SAFETY%20NETS.%20-%20I%27m%20Interested%20in%20knowing%20price%20for%20the%20services%20you%20offer." target="_blank" rel="noreferrer" className="category-page__btn category-page__btn--whatsapp">
                  WhatsApp Us
                </a>
              </div>
