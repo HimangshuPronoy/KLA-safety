@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #111; /* dark theme */
+  background-color: #fff; /* light theme */
   z-index: 10000;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
@@ -16,7 +16,7 @@
 
 .splash-content {
   text-align: center;
-  color: #fff;
+  color: #111;
   animation: scaleUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -35,13 +35,13 @@
   margin-top: 10px;
   margin-bottom: 40px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(17, 17, 17, 0.8);
 }
 
 .splash-loader {
   width: 150px;
   height: 2px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(17, 17, 17, 0.1);
   margin: 0 auto;
   position: relative;
   overflow: hidden;
