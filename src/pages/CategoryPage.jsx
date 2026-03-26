@@ -46,7 +46,7 @@ const categoryData = {
   'monkey-safety-nets': {
     title: 'Invisible Grill',
     description: 'High-tensile stainless steel wire grills for safety without blocking the view.',
-    images: ['/5.jpg', '/inv2.jpg', '/inv1.jpg'],
+    images: ['/5.jpg', '/6.jpg', '/inv2.jpg', '/inv1.jpg'],
     content: [
       'Invisible grills are a modern alternative to traditional iron grills, offering the perfect blend of safety and aesthetics. Made from high-tensile stainless steel wires, these grills are designed to be almost invisible from a distance, ensuring you don\'t lose your view or ventilation.',
       'Our invisible grills are rust-proof, extremely durable, and can withstand significantly high pressure. They are perfect for balconies, windows, and staircases in high-rise apartments, providing a secure barrier for children and pets without making your home feel like a cage.',
@@ -98,6 +98,10 @@ export default function CategoryPage() {
     );
   }
 
+  // Determine how many images go in the featured section
+  // For Invisible Grill, we use 2. For others, just 1.
+  const featuredCount = categoryId === 'monkey-safety-nets' ? 2 : 1;
+
   return (
     <div className="category-page">
       <Helmet>
@@ -111,14 +115,16 @@ export default function CategoryPage() {
       </div>
 
       {data.images.length > 0 && (
-        <div className="category-page__featured animate-img">
-          <img src={data.images[0]} alt={data.title} className="category-page__featured-img" />
+        <div className={`category-page__featured animate-img ${data.images.length > 1 && featuredCount > 1 ? 'category-page__featured--grid' : ''}`}>
+          {data.images.slice(0, featuredCount).map((src, idx) => (
+            <img key={idx} src={src} alt={data.title} className="category-page__featured-img" />
+          ))}
         </div>
       )}
 
       <div className="category-page__main">
         <div className="category-page__images">
-          {data.images.slice(1).map((src, idx) => (
+          {data.images.slice(featuredCount).map((src, idx) => (
             <div key={idx} className={`category-page__image-wrap animate-img animate-img-${idx}`}>
               <img src={src} alt={data.title} className="category-page__image" />
             </div>

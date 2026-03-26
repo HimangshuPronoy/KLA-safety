@@ -72,6 +72,12 @@
   animation: fadeInUp 0.8s ease-out 0.3s forwards;
 }
 
+.category-page__featured--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
 .category-page__featured-img {
   width: 100%;
   height: auto;
