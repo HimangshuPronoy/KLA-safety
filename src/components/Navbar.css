@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
-  height: 52px;
+  height: 64px;
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
@@ -24,11 +24,6 @@
   letter-spacing: 0.15em;
   color: #111;
   text-decoration: none;
-  display: flex;
-  align-items: baseline;
-  gap: 1px;
-  position: absolute;
-  left: 50%;
   transform: translateX(-50%);
 }
 
