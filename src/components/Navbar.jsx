@@ -112,8 +112,6 @@ export default function Navbar() {
             )}
           </div>
         ))}
-        <a href="tel:7816054341" className="navbar__nav-btn navbar__nav-special">Call: +91 7816054341</a>
-        <Link to="/contact" className="navbar__nav-btn navbar__nav-special">Free Inspection</Link>
       </nav>
 
       {/* Mobile menu */}
