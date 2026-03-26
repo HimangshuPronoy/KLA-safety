@@ -29,12 +29,11 @@ export default function Hero() {
         </div>
 
         {/* Right: image */}
-        <div className="hero__image-wrap" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div className="hero__image-wrap">
           <img
             src="/1.jpg"
             alt="Premium Balcony Protection"
             className="hero__image"
-            style={{ objectFit: 'contain', maxWidth: '100%', maxHeight: '100%' }}
           />
           <div className="hero__badge" style={{ bottom: '20px', left: '20px' }}>
             <span className="hero__badge-title">100% Quality</span>

@@ -6,7 +6,7 @@
 .hero__main {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
-  min-height: 560px;
+  min-height: 480px;
   max-width: 1400px;
   margin: 0 auto;
 }
