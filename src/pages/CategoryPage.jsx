@@ -46,7 +46,7 @@ const categoryData = {
   'monkey-safety-nets': {
     title: 'Invisible Grill',
     description: 'High-tensile stainless steel wire grills for safety without blocking the view.',
-    images: ['/inv1.jpg', '/inv2.jpg'],
+    images: ['/inv2.jpg', '/inv1.jpg'],
     content: [
       'Invisible grills are a modern alternative to traditional iron grills, offering the perfect blend of safety and aesthetics. Made from high-tensile stainless steel wires, these grills are designed to be almost invisible from a distance, ensuring you don\'t lose your view or ventilation.',
       'Our invisible grills are rust-proof, extremely durable, and can withstand significantly high pressure. They are perfect for balconies, windows, and staircases in high-rise apartments, providing a secure barrier for children and pets without making your home feel like a cage.',
