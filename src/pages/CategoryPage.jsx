@@ -60,7 +60,7 @@ const categoryData = {
   'sports-nets': {
     title: 'All Sports Practice Nets',
     description: 'Heavy duty nets for cricket practice, football, and indoor sports.',
-    images: ['/green.jpg', '/7.jpg', '/white.jpg'],
+    images: ['/sports2.jpg', '/sports3.jpg'],
     content: [
       'All sports practice nets are essential tools for enhancing training sessions across various sports. These nets provide athletes with a safe and effective way to practice their skills while reducing the risk of injuries and damage to the surroundings.',
       'They are commonly used in sports like baseball, soccer, tennis, cricket, and golf, allowing players to work on their throwing, hitting, and kicking techniques without interrupting others or losing equipment.',

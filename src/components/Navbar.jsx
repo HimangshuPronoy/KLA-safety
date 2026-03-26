@@ -75,7 +75,7 @@ export default function Navbar() {
         </button>
 
         <Link to="/" className="navbar__logo" onClick={closeMenus}>
-          <img src="/logo2.png" alt="SRC Safety Nets" className="navbar__logo-img" style={{ height: '40px' }} />
+          <img src="/logo2.png" alt="SRC Safety Nets" className="navbar__logo-img" style={{ height: '48px' }} />
         </Link>
 
         <div className="navbar__actions">
@@ -151,9 +151,6 @@ export default function Navbar() {
           ))}
           <a href="tel:7816054341" className="navbar__mobile-btn" onClick={closeMenus}>Call: +91 7816054341</a>
           <Link to="/contact" className="navbar__mobile-btn" onClick={closeMenus}>Free Inspection</Link>
-          <div className="navbar__mobile-divider" />
-          <Link to="/" className="navbar__mobile-btn" onClick={closeMenus}>About Us</Link>
-          <Link to="/" className="navbar__mobile-btn" onClick={closeMenus}>Services</Link>
         </div>
       )}
     </header>
