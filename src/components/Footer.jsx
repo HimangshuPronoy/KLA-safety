@@ -38,9 +38,9 @@ export default function Footer() {
       {/* Main footer */}
       <div className="footer__main">
         <div className="footer__brand">
-          <a href="/" className="footer__logo">
-            SRC SAFETY NETS
-          </a>
+          <Link to="/" className="footer__logo">
+            <img src="/logo2.png" alt="SRC Safety Nets" style={{ height: '50px' }} />
+          </Link>
           <p className="footer__brand-text">
             High-quality safety solutions for balconies, windows, and open areas. Ensuring protection from birds, falls, and debris.
           </p>

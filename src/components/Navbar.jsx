@@ -75,8 +75,7 @@ export default function Navbar() {
         </button>
 
         <Link to="/" className="navbar__logo" onClick={closeMenus}>
-          <span className="navbar__logo-main">SRC</span>
-          <span className="navbar__logo-main" style={{fontWeight: 400, marginLeft: 6}}>SAFETY NETS</span>
+          <img src="/logo2.png" alt="SRC Safety Nets" className="navbar__logo-img" style={{ height: '40px' }} />
         </Link>
 
         <div className="navbar__actions">

@@ -21,8 +21,7 @@ export default function SplashScreen() {
   return (
     <div className={`splash-screen ${complete ? 'fade-out' : ''}`}>
       <div className="splash-content">
-        <h1 className="splash-title">SRC</h1>
-        <p className="splash-subtitle">SAFETY NETS</p>
+        <img src="/logo2.png" alt="SRC Safety Nets" className="splash-logo" style={{ width: '180px', marginBottom: '20px' }} />
         <div className="splash-loader"></div>
       </div>
     </div>
