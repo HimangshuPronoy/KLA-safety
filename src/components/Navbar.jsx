@@ -40,9 +40,10 @@ const navItems = [
     sub: ['View All'],
   },
   {
-    label: 'House Covering',
-    id: 'building-safety-nets',
-    sub: ['View All'],
+    label: 'Gallery',
+    id: 'gallery',
+    href: '/gallery',
+    sub: [],
   },
   {
     label: 'Sports Nets',
@@ -75,7 +76,7 @@ export default function Navbar() {
         </button>
 
         <Link to="/" className="navbar__logo" onClick={closeMenus}>
-          <img src="/logo2.png" alt="SRC Safety Nets" className="navbar__logo-img" style={{ height: '48px' }} />
+          <img src="/logo2.png" alt="SRC Safety Nets" className="navbar__logo-img" style={{ height: '56px' }} />
         </Link>
 
         <div className="navbar__actions">
@@ -89,14 +90,14 @@ export default function Navbar() {
           <div
             key={item.label}
             className={`navbar__nav-item ${activeDropdown === item.label ? 'is-active' : ''}`}
-            onMouseEnter={() => setActiveDropdown(item.label)}
+            onMouseEnter={() => item.sub.length > 0 && setActiveDropdown(item.label)}
             onMouseLeave={() => setActiveDropdown(null)}
           >
-            <Link to={`/category/${item.id}`} className="navbar__nav-btn" onClick={closeMenus}>
+            <Link to={item.href || `/category/${item.id}`} className="navbar__nav-btn" onClick={closeMenus}>
               {item.label}
-              <ChevronDown size={12} className="navbar__nav-chevron" />
+              {item.sub.length > 0 && <ChevronDown size={12} className="navbar__nav-chevron" />}
             </Link>
-            {activeDropdown === item.label && (
+            {activeDropdown === item.label && item.sub.length > 0 && (
               <div className="navbar__dropdown">
                 {item.sub.map((s) => (
                   <Link 

@@ -13,9 +13,11 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import CategoryPage from './pages/CategoryPage';
 import GenericPage from './pages/GenericPage';
+import GalleryPage from './pages/GalleryPage';
 import CustomCursor from './components/CustomCursor';
 import SplashScreen from './components/SplashScreen';
 import WhyChooseUs from './components/WhyChooseUs';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function Home() {
   return (
@@ -49,8 +51,10 @@ function App() {
           <Route path="/category/:categoryId" element={<CategoryPage />} />
           <Route path="/page/:pageId" element={<GenericPage />} />
           <Route path="/contact" element={<GenericPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
         </Routes>
       </main>
+      <WhatsAppButton />
       <Footer />
     </Router>
   );
