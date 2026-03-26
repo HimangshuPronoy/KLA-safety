@@ -36,10 +36,14 @@ const pageData = {
     title: 'About SRC Safety Nets',
     content: (
       <>
-        <p>With over 12 years of industry experience, SRC Safety Nets is Hyderabad's leading provider of premium residential and commercial safety netting solutions.</p>
-        <p>Our mission is to provide peace of mind to families and businesses by ensuring balconies, windows, staircases, and open ducts are 100% secure from accidental falls and protected against bird intrusions.</p>
-        <p>We pride ourselves on using top-tier, UV-stabilized, high-density polyethylene (HDPE) and nylon nets that offer maximum durability without compromising the aesthetic appeal of your property.</p>
-        <p>Our team of highly trained technicians guarantees a flawless installation process, customized to the exact dimensions of your space.</p>
+        <p>At SRC Safety Nets, we specialize in high-quality safety solutions for balconies, windows, and open areas. With expert installation and durable materials, we ensure protection from birds, falls, and debris—making your home or workplace safer and more secure.</p>
+        <p>With over 12+ years of industry experience, our team ensures safe and secure net installations for all residential and commercial needs in Hyderabad.</p>
+        <ul style={{ paddingLeft: '20px', marginBottom: '20px', lineHeight: '1.8' }}>
+          <li><strong>Durable:</strong> We use weather-resistant materials that provide long-lasting protection.</li>
+          <li><strong>Professional:</strong> Our installation team is highly trained and experienced.</li>
+          <li><strong>Affordable:</strong> We offer customized solutions that provide great value for money.</li>
+        </ul>
+        <p>Our mission is to provide peace of mind to families and businesses by ensuring balconies, windows, staircases, and open ducts are 100% secure.</p>
       </>
     )
   },
@@ -47,14 +51,16 @@ const pageData = {
     title: 'Frequently Asked Questions',
     content: (
       <div className="faq-list">
+        <h4>What types of safety nets do you offer?</h4>
+        <p>We provide a wide range of solutions including balcony safety nets, anti-bird nets, pigeon nets, children safety nets, duct area covering, and construction safety nets.</p>
+        <h4>Are the nets durable and weatherproof?</h4>
+        <p>Yes, we use UV-stabilized, high-quality nylon and HDPE nets that are designed to withstand all weather conditions, from intense sunlight to heavy rain.</p>
+        <h4>Do you provide free site inspection?</h4>
+        <p>Absolutely! We offer a complimentary site visit and consultation to assess your specific needs and provide an accurate, no-obligation quote.</p>
         <h4>How long does installation take?</h4>
-        <p>Most standard balcony and window installations are completed within 2 to 4 hours on the same day.</p>
+        <p>Most standard residential installations, such as balconies or windows, are completed within a few hours on the same day.</p>
         <h4>Will the nets block my view or sunlight?</h4>
-        <p>No, our nets are designed to be minimally intrusive. We offer transparent and carefully colored options that blend into the background, preserving your view and ventilation.</p>
-        <h4>Are the nets safe for pets like cats and dogs?</h4>
-        <p>Absolutely. We use high-tensile strength nets specifically designed to withstand the weight and scratching of pets, ensuring they remain safe on high-rise balconies.</p>
-        <h4>How do I clean the safety nets?</h4>
-        <p>Our nets are low maintenance. They can be gently dusted or washed with mild soapy water if they gather dust over time.</p>
+        <p>No, our nets are designed to be minimally intrusive. We offer transparent and thin-filament options that preserve your view and allow natural light and fresh air to flow freely.</p>
       </div>
     )
   },

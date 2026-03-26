@@ -56,17 +56,22 @@ export default function Reviews() {
           <div className="reviews__trust-divider" />
           <div className="reviews__trust-stat">
             <span className="reviews__trust-stat-num">1,000+</span>
-            <span className="reviews__trust-stat-label">Satisfied Customers</span>
+            <span className="reviews__trust-stat-label">Satisfied Clients</span>
           </div>
           <div className="reviews__trust-divider" />
           <div className="reviews__trust-stat">
-            <span className="reviews__trust-stat-num">Durable</span>
-            <span className="reviews__trust-stat-label">Premium Quality Nets</span>
+            <span className="reviews__trust-stat-num">500+</span>
+            <span className="reviews__trust-stat-label">Active Projects</span>
           </div>
           <div className="reviews__trust-divider" />
           <div className="reviews__trust-stat">
-            <span className="reviews__trust-stat-num">100%</span>
-            <span className="reviews__trust-stat-label">Safety Guaranteed</span>
+            <span className="reviews__trust-stat-num">25+</span>
+            <span className="reviews__trust-stat-label">Expert Technicians</span>
+          </div>
+          <div className="reviews__trust-divider" />
+          <div className="reviews__trust-stat">
+            <span className="reviews__trust-stat-num">50k+</span>
+            <span className="reviews__trust-stat-label">Bird Netted</span>
           </div>
         </div>
 
