@@ -167,7 +167,9 @@ export default function GenericPage() {
     <div className="generic-page">
       <Helmet>
         <title>{title} | SRC Safety Nets Hyderabad</title>
-        <meta name="description" content={`Find out more about ${title} with SRC Safety Nets, your trusted safety solutions provider.`} />
+        <meta name="description" content={data ? data.description || `Find out more about ${title} with SRC Safety Nets, your trusted safety solutions provider in Hyderabad.` : `Information about ${title} at SRC Safety Nets.`} />
+        <link rel="canonical" href={`https://srcsafetynets.in/page/${pageId}`} />
+        <meta property="og:title" content={`${title} | SRC Safety Nets`} />
       </Helmet>
       <div className="generic-page__container">
         <h1 className="generic-page__title">{title || 'Page Not Found'}</h1>

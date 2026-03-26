@@ -52,7 +52,7 @@ export default function Categories() {
           {categories.map((cat) => (
             <Link key={cat.title} to={cat.link} className="cat-card">
               <div className="cat-card__img-wrap">
-                <img src={cat.image} alt={cat.title} className="cat-card__img" />
+                <img src={cat.image} alt={`Service: ${cat.title}`} className="cat-card__img" />
                 <div className="cat-card__overlay">
                   <span className="cat-card__shop">Shop now →</span>
                 </div>

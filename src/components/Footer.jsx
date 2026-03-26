@@ -77,9 +77,14 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="footer__bottom">
         <div className="footer__bottom-inner">
-          <p className="footer__copy">
-            © {new Date().getFullYear()} SRC Safety Nets · All rights reserved
-          </p>
+          <div className="footer__bottom-group">
+            <p className="footer__copy">
+              © {new Date().getFullYear()} SRC Safety Nets · All rights reserved
+            </p>
+            <p className="footer__design-credit">
+              designed by <a href="https://www.norvare.consulting/" target="_blank" rel="noopener noreferrer">Norvare Consulting</a>
+            </p>
+          </div>
           <div className="footer__payment">
             <span className="footer__payment-label">Contact:</span>
             <div className="footer__payment-methods">

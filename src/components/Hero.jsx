@@ -78,7 +78,7 @@ export default function Hero() {
   return (
     <section className="hero-slider">
       <div className={`hero-slider__slide ${animating ? 'hero-slider__slide--out' : 'hero-slider__slide--in'}`}>
-        <img src={slide.image} alt={slide.title} className="hero-slider__img" />
+        <img src={slide.image} alt={`${slide.label} - ${slide.title.replace('\n', ' ')}`} className="hero-slider__img" />
         <div className="hero-slider__overlay" />
         <div className="hero-slider__content">
           <p className="hero-slider__label">{slide.label}</p>

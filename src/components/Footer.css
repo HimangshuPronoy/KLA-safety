@@ -92,9 +92,31 @@
   gap: 16px;
 }
 
+.footer__bottom-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .footer__copy {
   font-size: 12px;
   color: rgba(255,255,255,0.3);
+}
+
+.footer__design-credit {
+  font-size: 11px;
+  color: rgba(255,255,255,0.25);
+  letter-spacing: 0.02em;
+}
+
+.footer__design-credit a {
+  color: rgba(255,255,255,0.4);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__design-credit a:hover {
+  color: #fff;
 }
 
 .footer__payment {

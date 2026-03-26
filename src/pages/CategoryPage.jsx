@@ -107,6 +107,10 @@ export default function CategoryPage() {
       <Helmet>
         <title>{data.title} | SRC Safety Nets Hyderabad</title>
         <meta name="description" content={data.description} />
+        <link rel="canonical" href={`https://srcsafetynets.in/category/${categoryId}`} />
+        <meta property="og:title" content={`${data.title} | SRC Safety Nets`} />
+        <meta property="og:description" content={data.description} />
+        <meta property="og:image" content={`https://srcsafetynets.in${data.images[0] || '/logo2.png'}`} />
       </Helmet>
 
       <div className="category-page__hero">

@@ -23,8 +23,11 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>SRC Safety Nets | Hyderabad's Top Safety Net Solutions</title>
-        <meta name="description" content="Get premium quality safety nets in Hyderabad. We specialize in balcony nets, pigeon nets, and sports netting. Free inspection & same-day secure installation." />
+        <title>SRC Safety Nets | #1 Safety Net Solutions in Hyderabad</title>
+        <meta name="description" content="Get premium quality safety nets in Hyderabad. We specialize in balcony nets, pigeon nets, and sports netting. Free inspection & same-day secure installation across Hyderabad, Telangana." />
+        <link rel="canonical" href="https://srcsafetynets.in/" />
+        <meta property="og:title" content="SRC Safety Nets | Hyderabad's Top Safety Net Solutions" />
+        <meta property="og:description" content="Expert balcony, pigeon, and bird safety net installations in Hyderabad. Same-day service with industrial-grade quality." />
       </Helmet>
       <Hero />
       <WhyChooseUs />

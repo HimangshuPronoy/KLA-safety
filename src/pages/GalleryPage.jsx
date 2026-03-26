@@ -13,8 +13,10 @@ export default function GalleryPage() {
   return (
     <div className="gallery-page">
       <Helmet>
-        <title>Gallery | SRC Safety Nets</title>
-        <meta name="description" content="Browse our photo gallery of safety net installations in Hyderabad." />
+        <title>Installation Gallery | SRC Safety Nets Hyderabad</title>
+        <meta name="description" content="Explore our gallery of professional safety net installations in Hyderabad, including balcony nets, pigeon nets, and invisible grills." />
+        <link rel="canonical" href="https://srcsafetynets.in/gallery" />
+        <meta property="og:title" content="Safety Net Installation Gallery | SRC Safety Nets" />
       </Helmet>
       <div className="gallery-page__hero">
         <h1 className="gallery-page__title">Our Work</h1>
