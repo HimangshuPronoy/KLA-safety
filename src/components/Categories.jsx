@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Categories.css';
 
 const categories = [
@@ -14,10 +15,23 @@ const categories = [
     link: '/category/pigeon-safety-nets',
   },
   {
+    title: 'Anti Bird Nets',
+    sub: 'Effective bird control solutions',
+    image: '/12.jpg',
+    link: '/category/anti-bird-nets',
+  },
+  {
     title: 'Children Safety Nets',
     sub: 'Strong protection for open areas',
     image: '/6.jpg',
     link: '/category/children-safety-nets',
+  },
+  {
+    title: 'Monkey Safety Nets',
+    id: 'monkey-safety-nets',
+    sub: 'Block intrusions effectively',
+    image: '/2.jpg',
+    link: '/category/monkey-safety-nets',
   },
   {
     title: 'Sports Nets',
@@ -37,7 +51,7 @@ export default function Categories() {
         </div>
         <div className="categories__grid">
           {categories.map((cat) => (
-            <a key={cat.title} href={cat.link} className="cat-card">
+            <Link key={cat.title} to={cat.link} className="cat-card">
               <div className="cat-card__img-wrap">
                 <img src={cat.image} alt={cat.title} className="cat-card__img" />
                 <div className="cat-card__overlay">
@@ -48,7 +62,7 @@ export default function Categories() {
                 <h3 className="cat-card__title">{cat.title}</h3>
                 <p className="cat-card__sub">{cat.sub}</p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

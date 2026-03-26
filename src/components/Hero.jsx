@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 export default function Hero() {
@@ -54,7 +55,7 @@ export default function Hero() {
           <div className="hero__tile-content">
             <span className="hero__tile-label">Pigeon Nets</span>
             <h3 className="hero__tile-title">Keep birds away</h3>
-            <a href="/category/pigeon-safety-nets" className="hero__tile-link">Learn more →</a>
+            <Link to="/category/pigeon-safety-nets" className="hero__tile-link">Learn more →</Link>
           </div>
         </div>
         <div className="hero__tile">
@@ -67,7 +68,7 @@ export default function Hero() {
           <div className="hero__tile-content hero__tile-content--light">
             <span className="hero__tile-label">Children Safety</span>
             <h3 className="hero__tile-title">Protect your loved ones</h3>
-            <a href="/category/children-safety-nets" className="hero__tile-link hero__tile-link--dark">Learn more →</a>
+            <Link to="/category/children-safety-nets" className="hero__tile-link hero__tile-link--dark">Learn more →</Link>
           </div>
         </div>
       </div>

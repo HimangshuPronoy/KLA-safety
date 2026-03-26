@@ -67,6 +67,36 @@ const categoryData = {
       'Sports practice nets come in different shapes and sizes to cater to the specific needs of each sport. For instance, a batting cage is perfect for cricket players, providing them with the space to hit balls consistently without the worry of chasing them down. Soccer practice nets help players improve their goal-scoring accuracy.',
       'These nets are made from durable materials such as high-density polyethylene (HDPE) ensuring they can withstand repeated high-impact use and harsh weather conditions. Many of them are designed for easy setup and portability, making them ideal for both professional and recreational use.'
     ]
+  },
+  'monkey-safety-nets': {
+    title: 'Monkey Safety Nets',
+    description: 'Strong, weather-resistant nets designed to block monkey entry and ensure safety.',
+    images: ['/2.jpg', '/4.jpg'],
+    content: [
+      'Protect your home and property from unwanted monkey intrusions with our durable monkey safety nets. In many urban and suburban areas, monkeys can pose a significant challenge, entering balconies, rooftops, and windows, causing damage and potential safety risks.',
+      'Our monkey safety nets are made from high-strength, weather-resistant materials designed specifically to withstand the agility and strength of monkeys. These nets provide a highly effective physical barrier while maintaining ventilation and natural light flow into your living spaces.',
+      'Installation is performed by our expert technicians who ensure the nets are securely anchored and tensioned to provide maximum protection. Whether you live in an apartment complex or a standalone house, our monkey safety nets offer a humane and reliable long-term solution to keep your family and belongings safe.'
+    ]
+  },
+  'pigeon-spikes': {
+    title: 'Pigeon & Bird Spikes',
+    description: 'Humane bird control solution to prevent landing on ledges and pipes.',
+    images: ['/10.jpg', '/8.jpg'],
+    content: [
+      'Pigeon spikes are an effective and humane bird control solution designed to prevent pigeons and other large birds from landing, roosting, or nesting on your property. They are ideal for ledges, window sills, pipes, rooftops, and commercial signage.',
+      'These spikes do not harm the birds; they simply create an uneven landing surface that encourages them to find a different place to roost. Made from high-quality stainless steel or UV-stabilized polycarbonate, our spikes are durable, weather-resistant, and virtually maintenance-free.',
+      'By installing pigeon spikes, you can keep your building ledges clean and free from acidic bird droppings, which can damage surfaces over time. It’s a discreet, long-lasting, and cost-effective way to maintain a hygienic and pest-free environment for your home or business.'
+    ]
+  },
+  'building-safety-nets': {
+    title: 'House Covering Safety Nets',
+    description: 'Protect your home from debris, birds, and dust while ensuring ventilation.',
+    images: ['/9.jpg', '/12.jpg'],
+    content: [
+      'House covering safety nets offer comprehensive protection for residential buildings, open terraces, and rooftops. These nets are designed to act as a versatile barrier against falling debris, bird intrusions, and even dust, making them ideal for homes in busy or high-risk areas.',
+      'Whether you are looking to protect your rooftop garden, cover an open shaft, or provide safety during minor repairs, our building safety nets are up to the task. They are made from high-density materials that are UV-stabilized and weatherproof, ensuring they remain strong and effective for years.',
+      'Our professional installation team ensures a secure and aesthetic fit that doesn’t detract from your building’s look. These nets allow for full ventilation and natural light while providing the heavy-duty protection your property deserves.'
+    ]
   }
 };
 

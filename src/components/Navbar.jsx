@@ -5,17 +5,17 @@ import './Navbar.css';
 
 const navItems = [
   {
-    label: 'Balcony Nets',
+    label: 'Balcony Safety Nets',
     id: 'balcony-safety-nets',
     sub: ['For Kids', 'For Pets', 'View All'],
   },
   {
-    label: 'Pigeon Nets',
+    label: 'Pigeon Safety Nets',
     id: 'pigeon-safety-nets',
     sub: ['View All'],
   },
   {
-    label: 'Bird Nets',
+    label: 'Anti Bird Nets',
     id: 'anti-bird-nets',
     sub: ['For Balconies', 'Bird Spikes', 'View All'],
   },
@@ -27,6 +27,21 @@ const navItems = [
   {
     label: 'Duct Area Nets',
     id: 'duct-area-safety-nets',
+    sub: ['View All'],
+  },
+  {
+    label: 'Monkey Safety Nets',
+    id: 'monkey-safety-nets',
+    sub: ['View All'],
+  },
+  {
+    label: 'Pigeon Spikes',
+    id: 'pigeon-spikes',
+    sub: ['View All'],
+  },
+  {
+    label: 'House Covering',
+    id: 'building-safety-nets',
     sub: ['View All'],
   },
   {

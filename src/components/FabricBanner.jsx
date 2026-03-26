@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './FabricBanner.css';
 
 export default function FabricBanner() {
@@ -21,7 +22,7 @@ export default function FabricBanner() {
         </p>
         <div className="fabric-banner__actions">
           <a href="tel:7816054341" className="fabric-banner__btn fabric-banner__btn--primary">Call +91 7816054341</a>
-          <a href="/" className="fabric-banner__btn fabric-banner__btn--secondary">Explore Services</a>
+          <Link to="/" className="fabric-banner__btn fabric-banner__btn--secondary">Explore Services</Link>
         </div>
       </div>
     </section>
