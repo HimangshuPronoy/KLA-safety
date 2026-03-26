@@ -36,7 +36,7 @@ const categories = [
   {
     title: 'Sports Nets',
     sub: 'For cricket, football & practice',
-    image: '/sports2.jpg',
+    image: '/sports1.jpg',
     link: '/category/sports-nets',
   },
 ];
