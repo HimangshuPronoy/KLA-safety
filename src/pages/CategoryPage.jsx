@@ -107,28 +107,28 @@ export default function CategoryPage() {
 
       <div className="category-page__hero">
         <h1 className="category-page__title">{data.title}</h1>
-        <p className="category-page__description">{data.description}</p>
+        <p className="category-page__desc">{data.description}</p>
       </div>
 
-      <div className="category-page__content-grid">
+      <div className="category-page__main">
         <div className="category-page__images">
           {data.images.map((src, idx) => (
-            <div key={idx} className="category-page__img-container">
-              <img src={src} alt={data.title} className="category-page__img" />
+            <div key={idx} className="category-page__image-wrap">
+              <img src={src} alt={data.title} className="category-page__image" />
             </div>
           ))}
         </div>
 
-        <div className="category-page__text">
+        <div className="category-page__content">
           {data.content.map((p, idx) => (
-            <p key={idx} className="category-page__p">{p}</p>
+            <p key={idx} className="category-page__text">{p}</p>
           ))}
-          <div className="category-page__cta">
+          <div className="category-page__cta-box">
             <h3>Get a Free Consultation</h3>
             <p>Contact us now for measurements and a free quote.</p>
-            <div className="category-page__actions">
-              <a href="tel:7816054341" className="category-btn category-btn--primary">Call Now</a>
-              <a href="https://api.whatsapp.com/send?phone=+917816054341&text=Hi,%20I'm%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" className="category-btn category-btn--whatsapp">WhatsApp</a>
+            <div className="category-page__buttons">
+              <a href="tel:7816054341" className="category-page__btn">Call Now</a>
+              <a href="https://api.whatsapp.com/send?phone=+917816054341&text=Hi,%20I'm%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" className="category-page__btn category-page__btn--whatsapp">WhatsApp</a>
             </div>
           </div>
         </div>
