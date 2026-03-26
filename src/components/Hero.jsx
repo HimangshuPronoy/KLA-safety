@@ -26,9 +26,9 @@ const slides = [
   },
   {
     image: '/4.jpg',
-    label: 'Monkey Safety Nets',
-    title: 'Block Unwanted\nIntrusions',
-    sub: 'Heavy-duty nets to keep monkeys out of your property.',
+    label: 'Invisible Grill',
+    title: 'Modern &\nSecure Grills',
+    sub: 'High-tensile stainless steel wire grills for safety without blocking the view.',
     link: '/category/monkey-safety-nets',
   },
   {

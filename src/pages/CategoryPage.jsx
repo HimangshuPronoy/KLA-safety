@@ -69,8 +69,8 @@ const categoryData = {
     ]
   },
   'monkey-safety-nets': {
-    title: 'Monkey Safety Nets',
-    description: 'Strong, weather-resistant nets designed to block monkey entry and ensure safety.',
+    title: 'Invisible Grill',
+    description: 'High-tensile stainless steel wire grills for safety without blocking the view.',
     images: ['/2.jpg', '/4.jpg'],
     content: [
       'Protect your home and property from unwanted monkey intrusions with our durable monkey safety nets. In many urban and suburban areas, monkeys can pose a significant challenge, entering balconies, rooftops, and windows, causing damage and potential safety risks.',

@@ -30,7 +30,7 @@ const navItems = [
     sub: ['View All'],
   },
   {
-    label: 'Monkey Safety Nets',
+    title: 'Invisible Grill',
     id: 'monkey-safety-nets',
     sub: ['View All'],
   },

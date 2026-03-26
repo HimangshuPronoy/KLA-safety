@@ -27,8 +27,7 @@ const categories = [
     link: '/category/children-safety-nets',
   },
   {
-    title: 'Monkey Safety Nets',
-    id: 'monkey-safety-nets',
+    title: 'Invisible Grill',
     sub: 'Block intrusions effectively',
     image: '/2.jpg',
     link: '/category/monkey-safety-nets',
