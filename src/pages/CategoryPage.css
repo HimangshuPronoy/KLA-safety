@@ -60,6 +60,20 @@
   line-height: 1.6;
 }
 
+.category-page__featured {
+  max-width: 1000px;
+  margin: 0 auto 64px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 48px rgba(0,0,0,0.12);
+}
+
+.category-page__featured-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .category-page__main {
   display: flex;
   flex-direction: column-reverse; /* Mobile default */

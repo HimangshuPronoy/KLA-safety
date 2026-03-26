@@ -110,10 +110,16 @@ export default function CategoryPage() {
         <p className="category-page__desc">{data.description}</p>
       </div>
 
+      {data.images.length > 0 && (
+        <div className="category-page__featured animate-img">
+          <img src={data.images[0]} alt={data.title} className="category-page__featured-img" />
+        </div>
+      )}
+
       <div className="category-page__main">
         <div className="category-page__images">
-          {data.images.map((src, idx) => (
-            <div key={idx} className="category-page__image-wrap">
+          {data.images.slice(1).map((src, idx) => (
+            <div key={idx} className={`category-page__image-wrap animate-img animate-img-${idx}`}>
               <img src={src} alt={data.title} className="category-page__image" />
             </div>
           ))}
