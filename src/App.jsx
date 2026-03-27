@@ -19,16 +19,20 @@ import SplashScreen from './components/SplashScreen';
 import WhyChooseUs from './components/WhyChooseUs';
 import WhatsAppButton from './components/WhatsAppButton';
 
+import JsonLd from './components/JsonLd';
+
 function Home() {
   return (
     <>
       <Helmet>
         <title>SRC Safety Nets | #1 Safety Net Solutions in Hyderabad</title>
-        <meta name="description" content="Get premium quality safety nets in Hyderabad. We specialize in balcony nets, pigeon nets, and sports netting. Free inspection & same-day secure installation across Hyderabad, Telangana." />
+        <meta name="description" content="Get premium quality safety nets in Hyderabad. We specialize in balcony nets, pigeon nets, children safety nets, and invisible grills. Same-day installation with 12+ years of experience." />
+        <meta name="keywords" content="safety nets, balcony safety nets, pigeon safety nets, bird nets, children safety nets, invisible grills, sports nets, hyderabad safety nets, src safety nets" />
         <link rel="canonical" href="https://srcsafetynets.in/" />
-        <meta property="og:title" content="SRC Safety Nets | Hyderabad's Top Safety Net Solutions" />
-        <meta property="og:description" content="Expert balcony, pigeon, and bird safety net installations in Hyderabad. Same-day service with industrial-grade quality." />
+        <meta property="og:title" content="SRC Safety Nets | Hyderabad's Top Safety Net & Invisible Grill Solutions" />
+        <meta property="og:description" content="Expert balcony, pigeon, and children safety net installations. Specializing in high-tensile invisible grills across Hyderabad. Professional same-day service." />
       </Helmet>
+      <JsonLd />
       <Hero />
       <WhyChooseUs />
       <Features />

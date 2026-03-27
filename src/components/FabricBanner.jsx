@@ -7,7 +7,7 @@ export default function FabricBanner() {
       <div className="fabric-banner__image-col">
         <img
           src="/8.jpg"
-          alt="Safety Net Installation"
+          alt="Professional Safety Net Installation by SRC Safety Nets"
           className="fabric-banner__img"
           style={{ objectFit: 'cover' }}
         />

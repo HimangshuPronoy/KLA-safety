@@ -23,11 +23,19 @@ export default function GalleryPage() {
         <p className="gallery-page__sub">A showcase of our safety net installations across Hyderabad</p>
       </div>
       <div className="gallery-page__grid">
-        {galleryImages.map((src, idx) => (
-          <div key={idx} className="gallery-page__item">
-            <img src={src} alt={`SRC Safety Nets installation ${idx + 1}`} className="gallery-page__img" loading="lazy" />
-          </div>
-        ))}
+        {galleryImages.map((src, idx) => {
+          const name = src.replace('/', '').replace('.jpg', '');
+          let altTag = `SRC Safety Nets installation ${idx + 1}`;
+          if (name.includes('sports')) altTag = `Sports Practice Net installation - SRC Safety Nets`;
+          if (name.includes('inv')) altTag = `Invisible Grill installation - SRC Safety Nets`;
+          if (name.includes('green')) altTag = `Balcony Safety Net (Green) - SRC Safety Nets`;
+          
+          return (
+            <div key={idx} className="gallery-page__item">
+              <img src={src} alt={altTag} className="gallery-page__img" loading="lazy" />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

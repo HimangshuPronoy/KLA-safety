@@ -5,7 +5,7 @@ import './CategoryPage.css';
 const categoryData = {
   'balcony-safety-nets': {
     title: 'Balcony Safety Nets',
-    description: 'Ensure the safety of your loved ones and pets with our high-quality balcony safety nets.',
+    description: 'Ensure the safety of your loved ones and pets with our high-quality balcony safety nets in Hyderabad. Professional installation and durable HDPE materials.',
     images: ['/1.jpg', '/4.jpg'],
     content: [
       'Balconies are often the most vulnerable parts of a home, especially for families with children or pets. Our balcony safety nets are made from high-density polyethylene (HDPE) materials that are UV-stabilized and weather-resistant, providing long-lasting protection.',
@@ -15,7 +15,7 @@ const categoryData = {
   },
   'pigeon-safety-nets': {
     title: 'Pigeon Safety Nets',
-    description: 'Keep your premises clean and hygienic with our specialized pigeon and bird safety nets.',
+    description: 'Keep your premises clean and hygienic with our specialized pigeon and bird safety nets in Hyderabad. Effective bird control solutions for apartments.',
     images: ['/5.jpg', '/2.jpg'],
     content: [
       'Pigeons and birds can cause significant health risks and property damage through their droppings and nesting. Our specialized bird safety nets provide a humane and effective solution to keep them away from your balconies and open areas.',
@@ -25,7 +25,7 @@ const categoryData = {
   },
   'children-safety-nets': {
     title: 'Children Safety Nets',
-    description: 'Specialized safety solutions designed to protect children from accidents in high-rise buildings.',
+    description: 'Specialized children safety solutions designed to protect kids from accidents in high-rise buildings. Expert installation of child-safe nets in Hyderabad.',
     images: ['/6.jpg', '/3.jpg'],
     content: [
       'Safety for children in high-rise buildings is non-negotiable. Our children safety nets are specifically designed to provide an extra layer of security for windows, balconies, and staircases, preventing accidental falls.',
@@ -35,7 +35,7 @@ const categoryData = {
   },
   'anti-bird-nets': {
     title: 'Anti Bird Nets',
-    description: 'Professional bird control service for apartments and commercial buildings.',
+    description: 'Professional anti-bird nets and bird control services for Hyderabad apartments and commercial buildings. Durable and nearly invisible netting.',
     images: ['/11.jpg', '/12.jpg'],
     content: [
       'Protect your open areas, AC ledge, and duct areas from bird nesting with our durable anti-bird nets. These nets are specially designed to be nearly invisible, maintaining the visual appeal of your building.',
@@ -45,7 +45,7 @@ const categoryData = {
   },
   'monkey-safety-nets': {
     title: 'Invisible Grill',
-    description: 'High-tensile stainless steel wire grills for safety without blocking the view.',
+    description: 'High-tensile stainless steel invisible grills in Hyderabad. Modern balcony safety solutions without blocking your view. Best prices for invisible grills.',
     images: ['/5.jpg', '/6.jpg', '/inv2.jpg', '/inv1.jpg'],
     content: [
       'Invisible grills are a modern alternative to traditional iron grills, offering the perfect blend of safety and aesthetics. Made from high-tensile stainless steel wires, these grills are designed to be almost invisible from a distance, ensuring you don\'t lose your view or ventilation.',
